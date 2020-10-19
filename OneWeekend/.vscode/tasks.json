@@ -15,7 +15,7 @@
         "-I",
         "include"
         "-o",
-        "bin/main.exe"
+        "${fileDirname}/${fileBasenameNoExtension}"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
