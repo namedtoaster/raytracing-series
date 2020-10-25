@@ -26,6 +26,7 @@ class vec3 {
     vec3& operator/=(const double t);
 
     double length() const;
+    double length_squared() const;
 
     public:
 

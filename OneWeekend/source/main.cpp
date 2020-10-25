@@ -1,9 +1,9 @@
+#include <iostream>
+
 #include "vec3.h"
 #include "ray.h"
 #include "color.h"
 #include "utilities.h"
-
-#include <iostream>
 
 int main() {
 
