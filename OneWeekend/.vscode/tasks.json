@@ -8,14 +8,14 @@
       "label": "clang++ build active file",
       "command": "/usr/bin/clang++",
       "args": [
-        "-std=c++17",
-        "-stdlib=libc++",
+        // "-stdlib=libc++",
         "-g",
         "source/*.cpp",
         "-I",
         "include"
         "-o",
-        "${workspaceFolder}/bin/main.exe"
+        "${workspaceFolder}/bin/main.exe",
+        "-std=c++11"
       ],
       "options": {
         "cwd": "${workspaceFolder}"
